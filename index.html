@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="date"></div>
+      <div class="plus">
+        <button>+</button>
+      </div>
+    </header>
+    <main>
+      <div class="title"><h1>In Progress</h1></div>
+      <div class="search">
+        <div class="search-icon"><img src="assets/search.svg" alt="" /></div>
+        <input
+          type="text"
+          name=""
+          id="search-input"
+          placeholder="Search"
+          maxlength="25"
+        />
+        <div class="cancel-icon"></div>
+      </div>
+      <div class="library-view">
+        <section class="reading">
+          <div class="book-container"></div>
+        </section>
+        <section class="next-up">
+          <h3>Next Up</h3>
+          <div class="book-container"></div>
+        </section>
+      </div>
+      <div class="search-view hidden">
+        <section class="result">
+          <div class="book-container"></div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <button><img src="assets/open-book.svg" /></button>
+      <button><img src="assets/books.svg" /></button>
+      <button><img src="assets/bookmark.svg" /></button>
+      <button><img src="assets/profile.svg" /></button>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
